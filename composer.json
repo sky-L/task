@@ -1,0 +1,13 @@
+{
+    "name": "skylee/task",
+    "authors": [
+        {
+            "name": "sky",
+            "email": "690035384@qq.com"
+        }
+    ],
+    "require": {
+    	"illuminate/database": "*"
+    
+    }
+}
