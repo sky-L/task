@@ -3,9 +3,9 @@ return [
 
     'host' => 'smtp.qq.com',
 
-    'username' => '690035384@qq.com',
+    'username' => ' ',
 
-    'password' => 'qq@sky123',
+    'password' => ' ',
 
     'secure' => ''
 
