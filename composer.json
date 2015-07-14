@@ -1,13 +1,22 @@
 {
-    "name": "skylee/task",
-    "authors": [
-        {
-            "name": "sky",
-            "email": "690035384@qq.com"
-        }
-    ],
-    "require": {
-    	"illuminate/database": "*"
-    
+  "name": "skylee/task",
+  "authors": [
+    {
+      "name": "sky",
+      "email": "690035384@qq.com"
     }
+  ],
+  "require": {
+    "illuminate/database": "*",
+    "nette/mail": "*",
+    "predis/predis": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "action"
+    ],
+    "psr-4": {
+      "Action\\": "action/"
+    }
+  }
 }
