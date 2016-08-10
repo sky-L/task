@@ -9,11 +9,18 @@
   "require": {
     "illuminate/database": "*",
     "nette/mail": "*",
-    "predis/predis": "*"
+    "predis/predis": "*",
+    "league/monga": "^1.1",
+    "endroid/qrcode": "^1.5",
+    "phpoffice/phpexcel": "^1.8",
+    "symfony/dom-crawler": "^3.0",
+    "symfony/css-selector": "^3.0",
+    "guzzlehttp/guzzle": "~6.0"
   },
   "autoload": {
     "classmap": [
-      "action"
+      "action",
+      "model"
     ],
     "psr-4": {
       "Action\\": "action/"
