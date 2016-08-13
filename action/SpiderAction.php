@@ -154,7 +154,10 @@ class SpiderAction extends BaseAction
             ]);
         }
         
-        echo $tieba . "-" .$count ."--". $i . "--down\n";
+        
+        echo $str = $tieba . "-" .$count ."--". $i . "--down\n";
+        
+        file_put_contents("/tmp/logs/" . date("Ymd") . $tieba, $str,FILE_APPEND);
     }
 
     /**
